@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		734B4ED8203BA96A0008E47B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B4ED7203BA96A0008E47B /* LoginViewController.swift */; };
 		734B4EDA203BCFFE0008E47B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734B4ED9203BCFFE0008E47B /* ChatViewController.swift */; };
+		73BE2314203DF18000130C7A /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BE2313203DF18000130C7A /* ChatCell.swift */; };
 		73F4A797203BA77C00DAE38E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F4A796203BA77C00DAE38E /* AppDelegate.swift */; };
 		73F4A799203BA77C00DAE38E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F4A798203BA77C00DAE38E /* ViewController.swift */; };
 		73F4A79C203BA77C00DAE38E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F4A79A203BA77C00DAE38E /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		461E65196D203EC2743A66AF /* Pods-Week4Lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week4Lab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Week4Lab/Pods-Week4Lab.debug.xcconfig"; sourceTree = "<group>"; };
 		734B4ED7203BA96A0008E47B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		734B4ED9203BCFFE0008E47B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		73BE2313203DF18000130C7A /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		73F4A793203BA77C00DAE38E /* Week4Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week4Lab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F4A796203BA77C00DAE38E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73F4A798203BA77C00DAE38E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				73F4A798203BA77C00DAE38E /* ViewController.swift */,
 				734B4ED7203BA96A0008E47B /* LoginViewController.swift */,
 				734B4ED9203BCFFE0008E47B /* ChatViewController.swift */,
+				73BE2313203DF18000130C7A /* ChatCell.swift */,
 				73F4A79A203BA77C00DAE38E /* Main.storyboard */,
 				73F4A79D203BA77C00DAE38E /* Assets.xcassets */,
 				73F4A79F203BA77C00DAE38E /* LaunchScreen.storyboard */,
@@ -469,6 +472,7 @@
 				734B4ED8203BA96A0008E47B /* LoginViewController.swift in Sources */,
 				73F4A799203BA77C00DAE38E /* ViewController.swift in Sources */,
 				734B4EDA203BCFFE0008E47B /* ChatViewController.swift in Sources */,
+				73BE2314203DF18000130C7A /* ChatCell.swift in Sources */,
 				73F4A797203BA77C00DAE38E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

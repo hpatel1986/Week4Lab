@@ -63,6 +63,7 @@ class LoginViewController: UIViewController {
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
 
             }else {
+                self.onAlertTapped(AnyObject.self)
                 print(error?.localizedDescription as Any)
             }
         }
